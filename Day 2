@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Appy for ojee 2024 MCA</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+<!-- label tag used for adding text for the placeholder-->
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+            <!-- placeholder is a box for enter data -->
+        </div>
+        <div>
+<!-- input tag is used for taking input frpom user -->
+            <input type="checkbox" id="subscribe" name="subscribe">
+
+            <label for="subscribe">subscribe to soumya ranjan padhi</label>
+        </div>
+        <!-- div tag used to division -->
+        
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="female">Female</label>
+        <!-- form tag used for entering forms -->
+        <div>
+            <label for="name">Enter your name</label>
+            <br>
+            <textarea name="name" id="name" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <select name="Movies">
+                <option value="Tenet">
+
+                </option>
+                <option value="Moon">
+
+                </option>
+                <option value="Sweet Home">
+
+                </option>
+            </select>
+            <!-- select tag used for add options -->
+        </div>
+
+  </body>
+</html>
